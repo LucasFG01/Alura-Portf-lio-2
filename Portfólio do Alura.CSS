@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+  }
+  
+  h2 {
+    color: #007BFF;
+  }
+  
+  ul {
+    list-style: square;
+    padding-left: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ddd;
+  }
+  
+  /* ===== Personagem Lucas ===== */
+  .lucas-personagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  /* Cabeça carec */
+  .cabeca {
+    width: 120px;
+    height: 120px;
+    background-color: #fcd5b5;
+    border-radius: 50%;
+    position: relative;
+    border: 2px solid #aaa;
+  }
+  
+  /* Olhos */
+  .olho {
+    width: 12px;
+    height: 12px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 45px;
+  }
+  
+  .olho.esquerdo {
+    left: 30px;
+  }
+  
+  .olho.direito {
+    right: 30px;
+  }
+  
+  /* Sobrancelhas */
+  .sobrancelha {
+    width: 20px;
+    height: 4px;
+    background-color: black;
+    position: absolute;
+    top: 30px;
+  }
+  
+  .sobrancelha.esquerda {
+    left: 28px;
+  }
+  
+  .sobrancelha.direita {
+    right: 28px;
+  }
+  
+  /* Boca */
+  .boca {
+    width: 40px;
+    height: 20px;
+    border: 3px solid black;
+    border-top: none;
+    border-radius: 0 0 20px 20px;
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  /* Corpo */
+  .corpo {
+    width: 80px;
+    height: 120px;
+    background-color: #007BFF;
+    border-radius: 10px;
+    margin-top: -10px;
+  }
+  
